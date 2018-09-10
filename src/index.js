@@ -1,0 +1,10 @@
+import React from 'react';
+import ReactDOM from 'react-dom';
+import './index.css';
+
+// App组件，以大写字母开头的都是组件
+import App from './App';
+import registerServiceWorker from './registerServiceWorker';
+
+ReactDOM.render(<App />, document.getElementById('root'));
+registerServiceWorker();
